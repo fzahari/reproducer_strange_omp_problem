@@ -1,0 +1,11 @@
+
+
+1) Cmpiling with 'make' will produce a version of the exectuable 'test', which crashes.
+i
+In this case, all the files are compiled with OpenMP (-qsmp=omp).
+
+
+2) Compiling with 'make fided' will produce a version of the exectuable 'test', 
+which runs to success (by simply priting out "Success".).
+
+In this case, all the files but mod_grid_storage.f90 are compiled with OpenMP (-qsmp-omp).
